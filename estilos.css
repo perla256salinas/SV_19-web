@@ -1,0 +1,93 @@
+/* CONTENEDOR */
+.table-container{
+    max-width:900px;
+    margin:40px auto;
+    background:#FAF3E0; /* 🧴 Antique Cream */
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.table-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.table-header h2{
+    color:#3E2723; /* 🟤 Mahogany */
+}
+
+/* BOTÓN NUEVO */
+.btn-add{
+    padding:10px 15px;
+    background:#E6C200; /* 🟡 Harvest Gold */
+    color:#3E2723;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-add:hover{
+    background:#c9a800;
+}
+
+/* TABLA */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#ffffff;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* ENCABEZADO */
+th{
+    background:#A3B18A; /* 🌿 Sage */
+    color:#2b2b2b;
+    padding:14px;
+    font-weight:600;
+}
+
+/* CELDAS */
+td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+}
+
+/* FILAS ALTERNAS */
+tbody tr:nth-child(even){
+    background:#f9f9f9;
+}
+
+/* HOVER */
+tbody tr:hover{
+    background:#f1f5f1;
+    transition:0.2s;
+}
+
+/* EMAIL */
+.email{
+    background:#f1f1f1;
+    padding:5px 10px;
+    border-radius:6px;
+    font-size:13px;
+}
+
+/* BOTÓN ELIMINAR */
+.btn-delete{
+    background:#8B0000;
+    color:white;
+    padding:6px 10px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+    transition:0.3s;
+}
+
+.btn-delete:hover{
+    background:#5c0000;
+}
